@@ -1,3 +1,9 @@
+# Solution for Damn Vulnerable Defi
+
+**Note on solutions:** The exploits written optimizes for brevity and assumes that the blockchain operates on a vacuum. The exploit smart contracts does not check for
+authorization and can easily be frontrunned by a generalized frontrunner. That said, even if it checks for authorization, it can still be frontrunned by a
+sufficiently advanced generalized frontrunner that checks for internal transactions. For that reason, we might as well surrender to the MEV overlords.
+
 ![](cover.png)
 
 **A set of challenges to hack implementations of DeFi in Ethereum.** Featuring flash loans, oracles, governance, NFTs, lending pools, and more!
